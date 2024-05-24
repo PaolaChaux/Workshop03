@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3033,
+            "driver": "PostgreSQL",
+            "name": "happy-db",
+            "group": "Server and Port",
+            "database": "happy",
+            "username": "admin",
+            "password": "pao2003"
+        }
+    ]
+}

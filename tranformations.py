@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 country_to_continent = {
     'Switzerland': 'Europe', 'Iceland': 'Europe', 'Denmark': 'Europe', 'Norway': 'Europe', 'Canada': 'North America',
     'Finland': 'Europe', 'Netherlands': 'Europe', 'Sweden': 'Europe', 'New Zealand': 'Oceania', 'Australia': 'Oceania',
@@ -50,3 +51,14 @@ def drop_rank(df):
     return df
 #happy = drop_rank(happy)
 #print(happy)
+
+def dummies(df, column_name, drop_first=False):
+    df_with_dummies = pd.get_dummies(df, columns=[column_name], drop_first=drop_first)
+    return df_with_dummies
+
+#happy = convert_to_dummies(happy, 'Continent')
+#print(happy.head())
+
+def drop_country(df):
+    df.drop(columns=[ 'Country'], inplace=True)
+    return df

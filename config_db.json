@@ -1,0 +1,9 @@
+{
+    "host": "localhost",  
+    "database": "happy",
+    "user": "postgres",
+    "password": "pao2003",
+    "port": 5432
+    }
+
+    
