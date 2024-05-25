@@ -103,6 +103,8 @@ Launch the containers:
 docker compose up
 Now you are all set to start exploring the project.
 
+You can use the library Kafka, but in my case it didn't work so I decided to use Confluent kafka which works exactly the same, you should try which one suits you best.
+
 ## Conclusión
 Data Exploration (EDA) and Extraction, Transformation and Loading (ETL) are fundamental steps in any data science project. In this workshop 03, I was able to appreciate how EDA helps us to better understand the data and select the most relevant features for our machine learning model.
 
