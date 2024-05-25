@@ -14,7 +14,7 @@
 
 * [Requeriments](#Requeriments)
 
-* [Repository_Structure](# Repository Structure)
+* [Structure](# Repository Structure)
 
 * [Installation](#Installation)
 
@@ -104,6 +104,15 @@ docker compose up
 Now you are all set to start exploring the project.
 
 ## Conclusión
+Data Exploration (EDA) and Extraction, Transformation and Loading (ETL) are fundamental steps in any data science project. In this workshop 03, I was able to appreciate how EDA helps us to better understand the data and select the most relevant features for our machine learning model.
 
+Data pre-processing is crucial to ensure that the data is clean and suitable for modeling. In this workshop 03, I learned about techniques such as categorical variable coding and feature scaling, which are important for improving model performance.
 
-## References
+The process of training a machine learning model and evaluating its performance was fundamental and a new experience for me as I had not understood or performed this way and it helped me to understand and have more knowledge. In this workshop 03, we used a 70-30 data split to train and test the model, and then evaluated its performance using metrics suitable for regression problems.
+
+The use of streaming data allowed me to process data in real time and make decisions based on up-to-date information, something new that I had also never experienced before. In this workshop 03, we implemented a data stream in which the model predicts the happiness score in real time and stores the predictions in a database.
+
+Finally, evaluation of the model is crucial to determine its effectiveness in predicting the happiness score. In this project, we computed performance metrics such as mean squared error (MSE) to evaluate the model's performance.
+
+In summary, this work allowed me to apply the theoretical knowledge acquired in class and acquire many more of the errors or complications I had; this considering that it is solving a realistic or real-world problem, which helped me to better understand the entire process for these projects, from EDA to model evaluation.
+
